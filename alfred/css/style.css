@@ -1,0 +1,210 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+body
+{
+	background-color:lightblue;
+	font-family:sans-serif;
+}
+
+
+
+.slider{
+	width: 100%;
+	margin-left:0;
+
+	 /* top right */
+}
+
+.slider img{
+	height: 420px;
+
+}
+
+.carousel{
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators{
+	z-index: 1 !important;
+}
+
+
+.icon-box{
+	background:green;
+	color: #fff;
+	width: 250px;
+	padding: 10px 10px;
+	height: 60px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 7px;
+	display: flex;
+}
+
+.icon-box h6{
+	margin-top: 10px;
+	margin-left: 15px;
+	text-align: center;
+	 font-weight: bold;
+	 line-height: 10px;
+}
+
+.title-head{
+
+	background:green;
+	color: #fff;
+	padding: 4px 10px;
+	margin-top: 30px;
+	
+}
+.title-head h2{
+	text-align: center;
+	font-size: 24px;
+}
+.title-head:after
+{
+	content:'';
+	
+	position: absolute;
+
+}
+.about{
+	height: 400px;
+}
+
+
+
+.pera p{
+	text-align:left;
+	margin-top: 20px;
+}
+
+.pera ul li{
+ margin-left: 30px;
+}
+
+.news {
+	background: #E6E6FA;
+	height: 450px;
+	border-bottom: 5px;
+	border-color: green;
+
+}
+
+.newspera p{
+margin-top: 20px;
+
+}
+
+.twoimage{
+	width: 100%;
+	height: 350px;
+	margin-top: 30px;
+	
+
+}
+
+ .aboutimg{
+
+  	width:100%;
+  	height: 300px!important;
+
+  }
+
+ .twoimage2 {
+ 	width: 100%;
+	height: 350px;
+ 	margin-top: -5px;
+ 	margin-bottom: -5px;
+ }
+
+ .footer{
+
+	margin-bottom: 0;
+	background:green;
+	color: #fff;
+}
+.footer h1{
+	margin-top: 20px;
+	font-size: 15px;
+	
+}
+.footer p{
+	font-size: 12px;
+}
+.footer img{
+	width: 50%;
+}
+
+
+.side-menu{           /*side menu color kora part*/
+	height: 125vh;
+	width: 16%;
+	color: #fff;
+	font-size: 14px;
+	float: left;
+	z-index: 2;
+	background-color: green;
+
+
+}
+.side-menu ul{         /*margin neoa hoise---*/
+	margin-left: 15px;
+}
+.side-menu ul li{     /*list dekte kemon hbe*/
+	list-style-type: none;
+	font-weight: bold;
+	margin-top: 20px;
+	cursor: pointer;
+	padding: 0 5px 0 5px;
+}
+.side-menu ul li:hover
+{
+	color: orange;
+}
+
+/*slidertwo   */
+
+.slidertwo{
+	width: 84%;
+	margin-left:16%;
+	
+	
+	 /* top right */
+}
+
+.slidertwo img{
+	height: 500px;
+
+}
+
+.carousel{
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators{
+	z-index: 1 !important;
+}
+
+.academic{
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+
+
+}
+.academic h2{
+
+	color: green;
+	margin-left: 20px;
+}
+.academic p{
+	
+	margin-left: 20px;
+
+
+	
+}
+
