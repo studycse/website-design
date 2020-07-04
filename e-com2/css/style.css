@@ -1,0 +1,275 @@
+*{
+	margin: 0px; padding: 0px;
+}
+
+body {
+	background: #F0F8FF;
+	font-family: sans-serif;
+}
+/*-----Header part-------*/
+.header{
+	width: 100%;
+	height: 110px;
+	background: #008B8B;
+}
+
+.logo{
+	float: left;
+	width: 20%;
+	height: 110px;
+}
+.logo h1{
+	margin-left: 50px;
+	margin-top: 40px;
+	color: white;
+	font-weight: bold;
+
+
+}
+
+.link{
+	width: 80%;
+    float: left;
+
+}
+.link ul{
+	list-style-type: none;
+	float: right;
+	margin-right: 25px; 
+
+
+}
+/* list gula one line a likha---*/ 
+.link ul li{
+	float: left;
+	margin-left: 15px;
+	line-height: 30px;
+
+}
+.link ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+/*----search box------*/
+.search input[type=text]{
+		margin-top: 10px;
+		width: 55%;
+		height: 40px;
+		outline: none;
+		border-width: 0px;
+		padding-left: 3%;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+	
+}
+
+.search input[type=submit]{
+		margin-top: 10px;
+		width: 10%;
+		height: 40px;
+		border-width: 0px;
+		font-weight: bold;
+		margin-left:-2%;
+		
+}
+.search button{
+		margin-top: 10px;
+		width: 10%;
+		height: 40px;
+		border-width: 0px;
+		font-weight: bold;
+		border-radius: 3px; /* 4 side a radius hoy*/
+		
+}
+/*----menubar------*/
+
+
+.menu-bar{
+	background: #2F4F4F;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style-type: none;
+	color: white;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover{
+	background:#008B8B;
+	border-radius: 3px;
+}
+.sub-menu-1{
+	display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position:absolute;
+	margin-top: 15px;
+	margin-left: -15px;
+	background: #2F4F4F;
+	
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	background: transparent;
+	border-bottom: 1px dotted #fff;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+
+/*----bodyleft------*/
+.bodyleft{
+	float: left;
+	width: 68%;
+	padding: 1% ;
+	background: white;
+	margin-top: -5px;
+	
+}
+.bodyleft h2{
+	background: #008B8B;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-shadow: 5px 5px 5px  #000;
+}
+
+.slider{ /* 68% er moddhe 100% hcche slider er width*/
+	width: 100%;
+	height: 350px;
+
+}
+
+.slider img{
+	width: 100%;
+	height: 350px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+
+}
+/*---advertisement park----*/
+.bodyright{
+
+	float: left;
+	width: 29%;
+	background: white;
+	padding: 1% 1% 1% 0%;
+	margin-top: -5px;
+	 /*box er 4 side the faka korar jonno*/
+
+}
+.bodyright h3{
+	height: 40px;
+	color: #fff;
+	background: #008B8B;
+	padding-left: 3%;
+	line-height: 40px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-shadow: 5px 5px 5px  #000;
+
+}
+
+.bodyright ul{
+	list-style-type: none;
+	margin-top: 3px;
+
+}
+.bodyright ul li{
+	width: 100%;
+	margin-bottom: 10px;
+
+
+}
+.bodyright ul li img{
+	width: 100%;
+	height:150px;
+
+}
+
+/*----product section----*/
+
+.bodyleft h3{
+	margin-top: 10px;
+	height: 40px;
+	color: #fff;
+	background: #008B8B;
+	padding-left: 3%;
+	line-height: 40px;
+	border-radius: 3px;
+	text-shadow: 5px 5px 5px  #000;
+}
+
+.bodyleft ul {
+	list-style-type: none;
+}
+.bodyleft ul li{
+	margin-top: 10px;
+	border-radius: 2%;
+	margin-left:20px;
+	width: 30%;
+	height: 320px;
+	float: left;
+	border-left:2px solid #e6e6e6;
+	border-right:2px solid #e6e6e6;
+	border-top:2px solid #e6e6e6;
+	border-bottom: 3px solid #008B8B;
+}
+
+.bodyleft ul li h4{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+.bodyleft ul li a{
+	text-decoration: none;
+	color: black;
+
+
+}
+
+.bodyleft ul li img{
+
+		width: 100%;
+		height: 280px;
+
+}
+.bodyleft ul li:hover{
+	border-left: 2px solid #008B8B;
+	border-right: 2px solid #008B8B;
+	border-top: 2px solid #008B8B;
+} 
+
+/*----footer-----*/
+.footer{
+	background:#008B8B;
+	width: 100%;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	text-shadow: 5px 5px 5px #000;
+}
